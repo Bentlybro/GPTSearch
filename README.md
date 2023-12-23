@@ -39,3 +39,8 @@ Currently, the extension is not available on the Chrome Store. It can be install
 This tool is ideal for enhancing your ChatGPT experience, making it easier to revisit past conversations and manage your interaction history.
 
 ---
+## What It Looks Like
+
+![image](https://github.com/Bentlybro/GPTSearch/assets/27962737/0289d7af-7f55-418e-a86b-913121b5d05f)
+![image](https://github.com/Bentlybro/GPTSearch/assets/27962737/a21cc8f3-a45f-4403-a107-ece1594a23e8)
+
