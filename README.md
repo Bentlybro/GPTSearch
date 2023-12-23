@@ -23,6 +23,13 @@ This Chrome extension, named "GPTSearch", revolutionizes the way users interact 
 - Navigate to `https://chat.openai.com`.
 - Press the "Get Key From Chat.OpenAI" button to start using.
 
+## Security and Privacy
+
+- When you press the "Get Key From Chat.OpenAI" button, it refreshes the Chat.OpenAI page and scans the network traffic to retrieve your user's "Authorization" key. 
+- This key is then stored locally in your browser.
+- **Warning**: The "Authorization" key is used exclusively to access your conversation history. It is ONLY sent to OpenAI's API and is stored only locally.
+- We prioritize your privacy and security. Your key is never shared with any third parties.
+
 ## Note
 
 Currently, the extension is not available on the Chrome Store. It can be installed manually following the above steps.
