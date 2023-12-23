@@ -1,6 +1,6 @@
 # GPTSearch - A ChatGPT Conversation History Search - Chrome Extension
 
-This Chrome extension, named "GPTSearch", revolutionizes the way users interact with their ChatGPT conversation history. Designed for simplicity and efficiency, it enables users to seamlessly search through their last 1000 conversation titles on ChatGPT. This tool is perfect for those who frequently use ChatGPT and need to reference past interactions quickly.
+GPTSearch revolutionizes the way users interact with their ChatGPT conversation history. Designed for simplicity and efficiency, it enables users to seamlessly search through their last 1000 conversation titles on ChatGPT. This tool is perfect for those who frequently use ChatGPT and need to reference past interactions quickly.
 
 ## Features
 
