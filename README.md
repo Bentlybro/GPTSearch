@@ -37,7 +37,8 @@ Currently, the extension is not available on the Chrome Store. It can be install
 ---
 
 This tool is ideal for enhancing your ChatGPT experience, making it easier to revisit past conversations and manage your interaction history.
-
+---
+[If You Like This Project Join My Discord Server](https://discord.gg/XbrtTTM2ZZ)
 ---
 ## What It Looks Like
 
