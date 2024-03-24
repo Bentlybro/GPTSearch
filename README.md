@@ -1,4 +1,4 @@
-# GPTSearch - A ChatGPT Conversation History Search - Chrome Extension
+# GPTSearch - A ChatGPT Conversation History Search - Chrome & Firefox Extension
 
 GPTSearch revolutionizes the way users interact with their ChatGPT conversation history. Designed for simplicity and efficiency, it enables users to seamlessly search through their last 1000 conversation titles on ChatGPT. This tool is perfect for those who frequently use ChatGPT and need to reference past interactions quickly.
 
@@ -12,17 +12,29 @@ GPTSearch revolutionizes the way users interact with their ChatGPT conversation 
 
 ## Installation
 
+### For Chrome Users
 1. Clone the repository: `git clone https://github.com/Bentlybro/GPTSearch.git`
 2. Unzip the downloaded file.
 3. Open Chrome and navigate to `chrome://extensions/`.
 4. Enable 'Developer mode', click on "Load Unpacked", and select the unzipped "GPTSearch" folder.
 
+### For Firefox Users
+Simply go to https://addons.mozilla.org/en-US/firefox/addon/chatgpt-history-search/ and click the "Add to Firefox" button to install the extension.
+
 ## Usage
 
+### For Chrome Users
 - Open the Chrome extension.
 - Navigate to `https://chat.openai.com`.
 - Press the "Get Key From Chat.OpenAI" button to start using.
+- Simply press "Fetch Data" and wait for it to work
 
+### For Firefox Users
+- After installation, the extension will be ready to use.
+- Navigate to `https://chat.openai.com`
+- Press the "Get Key From Chat.OpenAI" button to start using.
+- Simply press "Fetch Data" and wait for it to work
+- 
 ## Security and Privacy
 
 - When you press the "Get Key From Chat.OpenAI" button, it refreshes the Chat.OpenAI page and scans the network traffic to retrieve your user's "Authorization" key. 
