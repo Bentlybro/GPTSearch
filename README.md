@@ -34,7 +34,7 @@ Simply go to https://addons.mozilla.org/en-US/firefox/addon/chatgpt-history-sear
 - Navigate to `https://chat.openai.com`
 - Press the "Get Key From Chat.OpenAI" button to start using.
 - Simply press "Fetch Data" and wait for it to work
-- 
+
 ## Security and Privacy
 
 - When you press the "Get Key From Chat.OpenAI" button, it refreshes the Chat.OpenAI page and scans the network traffic to retrieve your user's "Authorization" key. 
