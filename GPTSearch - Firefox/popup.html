@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API Results</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            background: linear-gradient(to bottom right, #be85ff, #7df0ff);
+            color: #333;
+        }
+        .results-container {
+            margin: 10px;
+            padding: 15px;
+            width: 350px;
+            min-height: 100px;
+            max-height: 350px;
+            overflow-y: auto;
+            background: #fff;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .result-link {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+            text-decoration: none;
+            border-bottom: 1px solid #ddd;
+            padding: 12px 10px;
+            transition: background-color 0.3s;
+        }
+        .result-link:hover {
+            background-color: #e9e9e9;
+        }
+        .button {
+            display: block;
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 6px auto;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            transition: opacity 0.3s;
+            text-align: center;
+        }
+        #fetchButton {
+            background-color: #007bff;
+        }
+        #fetchButton:hover {
+            opacity: 0.8;
+        }
+        #clearDataButton {
+            background-color: #ff4444;
+        }
+        #clearDataButton:hover {
+            opacity: 0.8;
+        }
+        #getKeyButton {
+            background-color: #44d3ff;
+        }
+        #getKeyButton:hover {
+            opacity: 0.8;
+        }
+        #searchInput {
+            display: none;
+            width: calc(100% - 40px);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+        }
+        #loading {
+            display: none;
+            text-align: center;
+        }
+
+        #loading-spinner {
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-top: 4px solid #333;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+    </style>
+</head>
+<body>
+    <button id="fetchButton" class="button">Fetch Data</button>
+    <button id="getKeyButton" class="button">Get Key From Chat.OpenAI</button>
+    <input type="text" id="searchInput" placeholder="Search...">
+    <div id="loading">
+        <div id="loading-spinner"></div>
+        <p>Loading...</p>
+        <p>(This may take upwards of 10 seconds)</p>
+    </div>    
+    <div id="result" class="results-container"></div>
+    <button id="clearDataButton" class="button" style="display: none;">Clear Data</button>
+    <script src="popup.js"></script>
+</body>
+</html>
