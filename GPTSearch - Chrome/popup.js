@@ -46,7 +46,7 @@ function displayData(data, filter = '') {
 
         if (filteredItems.length > 0) {
             var output = filteredItems.map(function(item) {
-                return `<a href="https://chat.openai.com/c/${item.id}" class="result-link" target="_blank">${item.title}</a>`;
+                return `<a href="https://chatgpt.com/c/${item.id}" class="result-link" target="_blank">${item.title}</a>`;
             }).join('');
             document.getElementById('result').innerHTML = output;
         } else {
@@ -69,8 +69,8 @@ function getApiKey() {
         const currentTab = tabs[0];
         const currentUrl = new URL(currentTab.url);
         
-        if (currentUrl.hostname !== 'chat.openai.com') {
-            alert('Please use this on the "https://chat.openai.com" website');
+        if (currentUrl.hostname !== 'chat.openai.com' && currentUrl.hostname !== 'chatgpt.com') {
+            alert('Please use this on either "https://chat.openai.com" or "https://chatgpt.com" website');
             return;
         }
 
@@ -90,7 +90,7 @@ function getApiKey() {
 
         chrome.webRequest.onBeforeSendHeaders.addListener(
             onBeforeSendHeadersListener,
-            { urls: ["https://chat.openai.com/*"] },
+            { urls: ["https://chat.openai.com/*", "https://chatgpt.com/*"] },
             ["requestHeaders"]
         );
 

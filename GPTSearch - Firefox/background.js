@@ -11,7 +11,7 @@ browser.runtime.onMessage.addListener(function (request, sender) {
 
                     function fetchDataWithOffset() {
                         if (offset <= maxOffset) {
-                            const url = `https://chat.openai.com/backend-api/conversations?offset=${offset}&limit=${limit}&order=updated`;
+                            const url = `https://chatgpt.com/backend-api/conversations?offset=${offset}&limit=${limit}&order=updated`;
 
                             fetch(url, {
                                 method: 'GET',

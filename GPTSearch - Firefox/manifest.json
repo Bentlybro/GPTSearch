@@ -6,7 +6,8 @@
     "activeTab",
     "storage",
     "webRequest",
-    "*://chat.openai.com/*"
+    "*://chat.openai.com/*",
+    "*://chatgpt.com/*"
   ],
   "browser_action": {
     "default_popup": "popup.html",

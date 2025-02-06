@@ -8,7 +8,8 @@
     "webRequest"
   ],
   "host_permissions": [
-    "https://chat.openai.com/*"
+    "https://chat.openai.com/*",
+    "https://chatgpt.com/*"
   ],
   "action": {
     "default_popup": "popup.html"
