@@ -19,7 +19,7 @@ GPTSearch revolutionizes the way users interact with their ChatGPT conversation 
 4. Enable 'Developer mode', click on "Load Unpacked", and select the unzipped "GPTSearch" folder.
 
 ### For Firefox Users
-Simply go to https://addons.mozilla.org/en-US/firefox/addon/chatgpt-history-search/ and click the "Add to Firefox" button to install the extension.
+Simply go to https://addons.mozilla.org/en-US/firefox/addon/chatgpt-history-search/ or https://addons.mozilla.org/en-US/firefox/addon/chatgpt-history-search-/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search and click the "Add to Firefox" button to install the extension.
 
 ## Usage
 
